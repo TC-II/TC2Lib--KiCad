@@ -1340,45 +1340,45 @@
 			)
 		)
 		(symbol "A1309_0_1"
+			(arc
+				(start -2.794 3.302)
+				(mid -1.3519 0.1796)
+				(end -2.54 -3.048)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -4.445 1.143)
+				(mid -3.9716 0)
+				(end -4.445 -1.143)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -3.429 1.905)
+				(mid -2.7143 -0.1796)
+				(end -3.683 -2.159)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(rectangle
 				(start -5.08 5.08)
 				(end 5.08 -5.08)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -4.445 -1.143)
-				(mid -3.9716 0)
-				(end -4.445 1.143)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -3.683 -2.159)
-				(mid -2.7143 -0.1796)
-				(end -3.429 1.905)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -2.54 -3.048)
-				(mid -1.3519 0.1796)
-				(end -2.794 3.302)
 				(stroke
 					(width 0)
 					(type default)
@@ -1407,10 +1407,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 10.16 0 180)
+			(pin power_in line
+				(at 0 -10.16 90)
 				(length 5.08)
-				(name "Out"
+				(name "GND"
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -1425,10 +1425,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 -10.16 90)
+			(pin output line
+				(at 10.16 0 180)
 				(length 5.08)
-				(name "GND"
+				(name "Out"
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -1444,6 +1444,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "BC54x"
 		(pin_names
