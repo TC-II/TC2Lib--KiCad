@@ -1,7 +1,7 @@
 (footprint "Toroide"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "db7f3da0-f833-49d5-ab74-8df9c60d4e02")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6f91a8cd-5a8b-40d5-b1e7-bc15ebef2ef7")
 		(effects
 			(font
 				(size 1 1)
@@ -116,7 +103,7 @@
 			(width 0.2)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "d6792642-79cc-45ee-bbf0-9e1a5953abcd")
 	)
@@ -155,15 +142,27 @@
 		(remove_unused_layers no)
 		(uuid "acc34972-5b72-46dc-9b55-7c69156b3d16")
 	)
+	(embedded_fonts no)
 	(model "Toroide.wrl"
 		(offset
-			(xyz 0 11.8 0)
+			(xyz 0 11.8 0.55)
 		)
 		(scale
 			(xyz 0.155 0.155 0.155)
 		)
 		(rotate
 			(xyz 90 180 180)
+		)
+	)
+	(model "Toroide_espira.wrl"
+		(offset
+			(xyz 0 0 2.2)
+		)
+		(scale
+			(xyz 0.2 0.2 0.2)
+		)
+		(rotate
+			(xyz -0 -0 -0)
 		)
 	)
 )
